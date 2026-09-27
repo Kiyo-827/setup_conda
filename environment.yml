@@ -1,0 +1,15 @@
+name: conda
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.14
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - pip
+
+  - pip:
+    - gnss-tec
